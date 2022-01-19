@@ -1,0 +1,68 @@
+h1 {
+    font-family: 'Azeret Mono', monospace;
+}
+
+img {
+    width: 900px;
+    height: 500px;
+}
+
+.move1 img {
+    padding:  10px 10px 40px 10px;
+    border: 5px black solid;
+    transform: rotate(-25deg);
+    position: absolute;
+    bottom: 10rem;
+    left: 40rem;
+    z-index: -1;
+    background-color: white;
+    filter: grayscale(100);
+    opacity: 0.5;
+}
+
+.move2 img {
+    padding:  10px 10px 40px 10px;
+    border: 5px black solid;
+    transform: rotate(20deg);
+    position: absolute;
+    bottom: -10rem;
+    left: 40rem;
+    z-index: -1;
+    background-color: white;
+    filter: grayscale(100);
+    opacity: 0.5;
+}
+
+.move3 img {
+    padding:  10px 10px 40px 10px;
+    border: 5px black solid;
+    transform: rotate(15deg);
+    position: absolute;
+    bottom: -20rem;
+    left: 20rem;
+    z-index: -1;
+    background-color: white;
+    filter: grayscale(100);
+    opacity: 0.5;
+}
+
+.move4 img {
+    padding:  10px 10px 40px 10px;
+    border: 5px black solid;
+    transform: rotate(5deg);
+    position: absolute;
+    bottom: -30rem;
+    left: 10rem;
+    top: 50rem;
+    z-index: -1;
+    background-color: white;
+    filter: grayscale(100);
+    opacity: 0.5;
+}
+
+img:hover {
+    transform: rotate(0deg);
+    z-index: 1;
+    opacity: 1;
+    filter: grayscale(0);
+  }
