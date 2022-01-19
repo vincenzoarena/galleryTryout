@@ -19,7 +19,6 @@ img {
     position: absolute;
     bottom: 10rem;
     left: 40rem;
-    z-index: -1;
 }
 
 .move2 img {
