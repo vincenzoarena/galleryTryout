@@ -1,3 +1,6 @@
+@import url(./mobile.css);
+@import url(./tablet.css);
+
 h1 {
     font-family: 'Azeret Mono', monospace;
 }
