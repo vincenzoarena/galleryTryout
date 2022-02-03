@@ -1,3 +1,62 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width:500px) {
+    body {
+        width: 500px;
+        background-color: white;
+    }
 
+    img {
+        width: 220px;
+        height: 100px;
+        padding:  10px 10px 40px 10px;
+        border: 5px black solid;
+        z-index: -1;
+        background-color: wheat;
+        filter: grayscale(100);
+        opacity: 0.5;
+        box-shadow: 2px 2px 4px #000000;
+    }
+ 
+    section {
+        position: flex;
+        justify-content: center;
+        align-items: center;
+        top: 50vh;
+        bottom: 60vh;
+    }
+
+    .move1 img {
+        transform: rotate(-25deg);
+        position: absolute;
+        bottom: 5rem;
+        left: 12rem;
+    }
+    
+    .move2 img {
+        transform: rotate(20deg);
+        position: absolute;
+        bottom: -5rem;
+        left: 12rem;
+    }
+    
+    .move3 img {
+        transform: rotate(15deg);
+        position: absolute;
+        bottom: -10rem;
+        left: 5rem;
+    }
+    
+    .move4 img {
+        transform: rotate(5deg);
+        position: absolute;
+        bottom: 5rem;
+        left: 3rem;
+        top: 60rem; 
+    }
+    
+    img:hover {
+        transform: rotate(0deg);
+        z-index: 1;
+        opacity: 1;
+        filter: grayscale(0);
+    }
 }
